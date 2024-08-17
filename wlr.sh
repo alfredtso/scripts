@@ -2,7 +2,7 @@
 EXTERNAL_OUTPUT="HDMI-A-1"
 
 usage() {
-  echo "Usage: ${0##./} display (left|right)"
+  echo "Usage: ${0##./} [display] (left|right)"
 }
 
 set_right() {
